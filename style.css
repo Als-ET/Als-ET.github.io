@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+header{
+    height: 40px;
+    background-color: #333;
+}
+
+main{
+    height: 600px;
+    width: 750px;
+    margin: 0 auto;
+    background-color: #C8B6A6;
+}
+
+footer{
+    height: 200px;
+    background-color: #333;
+    color: white;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+#top{
+    height: 40px;
+    background-color: #8D7B68;
+    margin-bottom: 25px;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#container{
+    height: 410px;
+    padding: 10px;
+    margin-bottom: 15px;
+    /* flex(wrap)으로 section 배치 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: #A4907C;
+}
+
+aside{
+    height: 100px;
+    background-color: #A4907C;
+    margin-bottom: 60px;
+    margin: 0 15px 60px 15px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+section{
+    height: 45%;
+    width: 30%;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#team {
+    width: 62%;
+    height: 80%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    float: left;
+}
+
+#hi {
+    width: 32%;
+    height: 80%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    float: right;
+}
+
+@media (max-width: 1000px){
+    .small-tomato{
+        background-color: tomato;
+    }
+}
